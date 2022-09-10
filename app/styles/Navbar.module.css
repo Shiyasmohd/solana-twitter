@@ -1,0 +1,53 @@
+.navInput{
+    border: 1px solid gray;
+    background: transparent;
+    color: gray;
+  }
+.navInput input:focus{
+    outline: none;
+}
+.sideNav{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+    margin-top: -74px;
+    display:flex;
+    justify-content:flex-end;
+}
+.activeSideNav{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    transform: translateX(-40%);
+    transition: all 0.5s ease-in-out;
+    margin-top: -74px;
+    display:flex;
+    justify-content:flex-end;
+}
+.ul{
+    list-style-type: none;
+}
+.activeSideNavDD{
+    background: rgba(255,255,255,0.05);
+    padding: 12px 10px;
+    border-radius: 3px;
+}
+.sideNavDD{
+    padding: 12px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sideNavDD2{
+    padding: 12px 10px;
+    border-radius: 3px;
+    /* cursor: pointer; */
+}
+@media only screen and (min-width: 600px){
+    .sideNavDD{
+        padding: 15px 12px;
+    }
+}
