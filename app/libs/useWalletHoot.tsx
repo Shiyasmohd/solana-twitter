@@ -1,7 +1,8 @@
 import { Connection,PublicKey } from "@solana/web3.js"
 import { AnchorWallet, useAnchorWallet, useConnection, useWallet, WalletContextState } from '@solana/wallet-adapter-react';
 import { AnchorProvider, Program } from "@project-serum/anchor";
-import idl from "../../target/idl/dapp.json"
+// import idl from "../../target/idl/dapp.json"
+import idl from "../idl/dapp.json"
 
 
 const programId = new PublicKey(idl.metadata.address);
