@@ -31,7 +31,7 @@ export default function TweetCard(props:any) {
       </Card.Body>
       <Card.Footer>
         <Link
-          icon
+          // icon
           color="primary"
           target="_blank"
           href={`https://solscan.io/account/${tweetPubkey}?cluster=devnet`}
