@@ -9,8 +9,8 @@ export default function CreateTweet() {
     const {publicKey} = useWallet()
     const {program,anchorWalletObj} = useWalletHook()
 
-    const topicRef = useRef<String>("")
-    const contentRef = useRef<String>("")
+    const topicRef = useRef<any>("")
+    const contentRef = useRef<any>("")
 
     const handleNewTweet = () =>{
         const topic = topicRef.current.value;
